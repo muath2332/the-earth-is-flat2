@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+iframe{
+    width: 80%;
+    height: 80%;
+}
+
+
+
+
+
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  .d1{ 
+  margin: 20px;
+  }
+  
+  .d1 {
+  
+    /* Custom styles for the buttons with the class 'd1' */
+    /* You can customize these styles further */
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Customize the primary button style */
+  
+  
+  
+  
+  /* Customize the secondary button style */
+  .btn-dark {
+    background: linear-gradient(to right, #000000 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border-color: #000000;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-position 0.5s ease, color 0.5s ease; /* Added color transition */
+  }
+  
+  /* Add hover effect to buttons */
+  .btn-outline-dark:hover,
+  .btn-dark:hover {
+    background-position: left bottom;
+    color: #fff; /* Change text color on hover */
+    border-color: #000000;
+  }
+  
+  /* Reset button styles when not hovered */
+  .btn-outline-dark:not(:hover),
+  .btn-dark:not(:hover) {
+    background-position: right bottom; /* Move back to the right when unhovered */
+    color: #000000; /* Restore the original text color */
+  }
+  
+  
+  .aa{
+    display: flex;
+    justify-content: center;
+  }
+  
+  body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  h4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  p {
+    margin-top: 10px;
+    text-align: justify;
+    background-color: rgb(235, 233, 233);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2); /* Add a box shadow */
+  }
+
+  h3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #007BFF;
+  }
+
+  img {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+  }

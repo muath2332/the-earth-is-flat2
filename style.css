@@ -1,0 +1,257 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.top {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Main content styles */
+.left {
+  text-align: right;
+  margin: 40px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* Section headings */
+.top2 {
+  text-align: center;
+  margin: 30px auto;
+  padding: 10px 30px;
+  background-color: #26bbbb;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+.top3 {
+  text-align: center;
+  margin: 60px auto;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Paragraph text */
+.p {
+  text-align: right;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  line-height: 1.5;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Ordered list styles */
+.ol-left {
+ 
+  direction: rtl;
+  margin: 20px;
+  padding: 35px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #26bbbb;
+}
+
+
+
+.img {
+  transition: transform 0.3s ease;
+}
+
+.text {
+  position: relative;
+  top: 5px;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.container:hover .img {
+  transform: rotate(180deg);
+}
+
+.container:hover .text {
+  transform: translateX(20px);
+}
+
+/* Button styles */
+.btn {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Offcanvas menu styles */
+.mn {
+  background-color: #26bbbb;
+}
+
+/* Additional paragraph styles */
+.p1 {
+  text-align: center;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  line-height: 1.5;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Additional image styles */
+.img-left {
+  margin-left: 20px;
+}
+
+.img-right {
+  margin-left: 20px;
+}
+
+.img-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .img1 {
+    width: 100%;
+  }
+  
+  .p5 {
+    margin-top: 40px;
+  }
+}
+
+/* Responsive styles for tablets */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .img1 {
+    width: 100%;
+  }
+
+  .p5 {
+    margin-top: 40px;
+  }
+}
+
+
+
+
+
+form {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.d1{ 
+margin: 20px;
+}
+
+.d1 {
+
+  /* Custom styles for the buttons with the class 'd1' */
+  /* You can customize these styles further */
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Customize the primary button style */
+
+
+
+
+/* Customize the secondary button style */
+.btn-dark {
+  background: linear-gradient(to right, #000000 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  border-color: #000000;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-position 0.5s ease, color 0.5s ease; /* Added color transition */
+}
+
+/* Add hover effect to buttons */
+.btn-outline-dark:hover,
+.btn-dark:hover {
+  background-position: left bottom;
+  color: #fff; /* Change text color on hover */
+  border-color: #000000;
+}
+
+/* Reset button styles when not hovered */
+.btn-outline-dark:not(:hover),
+.btn-dark:not(:hover) {
+  background-position: right bottom; /* Move back to the right when unhovered */
+  color: #000000; /* Restore the original text color */
+}
+
+
+.aa{
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link{
+  text-align: center;
+  margin-bottom:4px;
+  margin-top:   4px;
+  background-color: #ffffff;
+  border-radius: 7px;
+}
